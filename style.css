@@ -5,8 +5,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #1E1E1E;
-    padding: 10px 200px;
+    background-color: #1A1345;
+    padding: 16px 200px;
 }
 nav ul {
     display: flex;
@@ -14,13 +14,13 @@ nav ul {
 }
 nav ul li {
     list-style: none;
-    margin: 10px 5px;
+    margin: 4px -3px;
 }
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 20px;
     transition: 0.5s;
 }
