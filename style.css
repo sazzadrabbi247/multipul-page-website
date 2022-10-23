@@ -71,3 +71,36 @@ nav div{
     font-size: 20px;
     padding: 5px 20px;
 }
+/* main section code start */
+main{
+    background-color: #2D236A;
+    padding-top: 20px;
+}
+#main-section{
+    width: 1100px;
+    margin: 0px auto;
+    padding: 25px;
+
+}
+.latest-video-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-video-text{
+    font-size: 25px;
+    color: #04AA6D;
+    font-weight: bold;
+
+
+}
+.latest-pages{
+    color: #04AA6D;
+}
+.latest-pages span{
+    color: black;
+    background-color: antiquewhite;
+    border: 1px solid #8080805b;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0px 10px;
+}
