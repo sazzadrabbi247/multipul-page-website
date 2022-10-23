@@ -78,6 +78,7 @@ main{
 }
 #main-section{
     width: 1100px;
+    
     margin: 0px auto;
     padding: 25px;
 
@@ -133,4 +134,42 @@ main{
     justify-content: space-between;
     color: gray;
     margin-top: 10px;
+}
+/* .previous-next-page-code */
+
+#previous-next-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+   
+
+}
+#previous-next-parent h3 a{
+    background-color: #04AA6D;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+
+}
+#previous-next-parent h3 a:hover{
+    background-color: #0a4b33;
+}
+#previous-next-parent a{
+    text-decoration: none;
+    color: white;
+
+}
+#previous-next-parent div a{
+    margin: 0px 10px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(87, 84, 84);
+
+}
+
+#previous-next-parent div a :first-child{
+    color: #04AA6D;
 }
