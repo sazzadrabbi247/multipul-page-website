@@ -8,6 +8,8 @@ nav{
     background-color: #1A1345;
     padding: 16px 200px;
     border-bottom: 4px solid #401E63;
+    position: static;
+    top: 0;
 }
 nav ul {
     display: flex;
