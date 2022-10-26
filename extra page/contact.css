@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navagation ber code */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1345;
+    padding: 16px 200px;
+    border-bottom: 4px solid #401E63;
+   position: sticky;
+   top: 0px;
+}
+nav ul {
+    display: flex;
+    
+}
+nav ul li {
+    list-style: none;
+    margin: 4px -3px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+nav div{
+    color: wheat;
+    font-size: 20px;
+}
+/* navagation code ber stop */
+form{
+    width: 800px;
+background-color: rgb(237, 160, 160);
+    margin: 80px auto;
+    padding: 40px 0px;
+    box-shadow: 10px 10px 10px gray;
+}
+form h2{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+#name-email-parant input{
+
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 17px;
+
+
+}
+form textarea{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 100px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+
+}
+.form-submit{
+    margin: 20px auto;
+    display: block;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  background: linear-gradient(to right, blue, blueviolet, aqua);
+
+}
+/* footer code start  */
+footer{
+    background-color: #5F1E69;
+    color: white;
+}
+#footer-container{
+    width: 900px;
+    
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+
+}
+.footer-firstitem h3{
+    font-size: 25px;
+    padding: 30px 0px;
+    margin-top: 20px;
+
+}
+.footer-firstitem:first-child p{
+    margin-bottom: 50px ;
+
+}
+.footer-seconditem h3{
+    font-size: 25px;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+.footer-seconditem a{
+    text-decoration: none;
+    color: white;
+}
+.footer-seconditem p{
+    margin-bottom: 10px;
+}
+.footer-thirditem div{
+    font-size: 25px;
+    padding: 30px 0px;
+    margin-top: 20px;
+
+}
+.footer-thirditem div a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #1A1244;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.footer-thirditem p{
+    margin-bottom: 10px;
+
+}
+.footer-thirditem p:nth-child(3){
+    margin-bottom: 70px;
+}
